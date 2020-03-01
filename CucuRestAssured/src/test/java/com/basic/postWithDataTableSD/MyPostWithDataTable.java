@@ -32,7 +32,7 @@ public class MyPostWithDataTable {
 		
 		//Read data from file
 		String data = ""; 
-	    data = new String(Files.readAllBytes(Paths.get("D:\\IBM\\workspace\\CucuRestAssured\\src\\test\\java\\com\\basic\\postFromTextFileSD\\user.json"))); 
+	    data = new String(Files.readAllBytes(Paths.get("C:\\Users\\NIKHIL\\workspace111\\CucuRestAssured\\src\\test\\java\\com\\basic\\postFromTextFileSD\\user.json"))); 
 	    System.out.println("json in String ==== " +data);
 	    
 	    //Update the data
@@ -86,18 +86,7 @@ public class MyPostWithDataTable {
 		System.out.println("last line of code ");
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }
  
